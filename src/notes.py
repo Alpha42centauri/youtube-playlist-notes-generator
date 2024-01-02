@@ -113,12 +113,10 @@ for link in links:
 ####################################### TO-DOs ######################################################
 #####################################################################################################
 # Provide essential documentation, including an installation guide.
-# Add README files to describe the purpose of directories and code.
 # open source the project and launch it on reddit.
 # do constant issues and bugs fixes overtime.
 # find an alternative to gemini api from hugging face transformers.
 # give the suggestion on how to make their playlist or yt watch later list into a public playlist.
-# delete the environment from this device and all the packages
 # Make an easy setup file for peeps
 # host on kaggle.
 # install tranformers
