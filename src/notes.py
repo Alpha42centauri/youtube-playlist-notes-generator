@@ -86,7 +86,7 @@ def ai_notes(vid_transcript):
     chain.llm_chain.prompt.template = \
     """Could you please provide a summary of the given text, including all key points and supporting details? 
     The summary should be comprehensive and accurately reflect the main message and arguments presented in the original text, 
-    there is no restriction on the length of the text as long as it contains all the necessary information:
+    there is no restriction on the length of the text as long as it contains all the necessary information and dialogues:
     "{text}"
 
     """
@@ -107,11 +107,7 @@ for link in links:
     with open (file_name, 'w') as file:
         file.write(final_notes)
 
-
-
 #####################################################################################################
 ####################################### TO-DOs ######################################################
 #####################################################################################################
-# show it on reddit.
-# find an alternative to gemini api from hugging face transformers(falcon).
 # host on kaggle.
